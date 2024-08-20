@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    background-color: #cfe3d0;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+footer {
+    background-color: #cfe3d0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .social-media-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer .quick-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+footer .quick-links ul li {
+    display: inline;
+}
+
+footer .quick-links ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer .hire-now a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.image{
+    
+    padding: 50px 20px;
+    display: flex;
+
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    margin-bottom: 20px;
+}
+.about-text{
+    padding-right: 500px;
+    float: inline-end;
+    display: flex;
+}
+
+nav ul li a:hover{
+ background-color: #eee;   
+}
+.quick-links ul li a:hover{
+    background-color: white;
+}
+.hire-now a:hover{
+background-color: white;
+}
+
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.education-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline {
+    position: relative;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-left: 4px solid #ddd;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #cfe3d0;
+}
+
+.timeline-event {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.timeline-event:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-event::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 4px solid #cfe3d0;
+    border-radius: 50%;
+}
+
+.timeline-date h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.timeline-content h4 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.timeline-content p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
