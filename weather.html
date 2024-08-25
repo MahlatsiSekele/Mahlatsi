@@ -3,32 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Forecast</title>
-    <link rel="stylesheet" href="profile.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
 </head>
 <body>
-    <header>
-        <h1>Weather Forecast</h1>
-    </header>
-    
-    <main>
-        <div class="location-details">
-            <h2 id="location">Location</h2>
-            <p id="date">Date</p>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <button id="searchButton">Search</button>
+        <div class="weather-info">
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
         </div>
-
-        <div class="weather-details">
-            <h3 id="temperature">Temperature</h3>
-            <p id="weather">Weather Condition</p>
-            <p id="humidity">Humidity</p>
-            <p id="wind-speed">Wind Speed</p>
-        </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Weather Forecast</p>
-    </footer>
-
+    </div>
     <script src="weather.js"></script>
 </body>
 </html>
