@@ -211,26 +211,8 @@ h2 {
     width: 15%;
 
 }
-.contact-me h1{
-text-align: center;
-}
-.contact-details{
-    text-align: center ;
-    background-color: #cfe3d0;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border-color: #000;
 
-}
-.Address{
-    text-align: center;
-    background-color: #cfe3d0;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border-color: #000;
-}
+
 section#projects {
     max-width: 1200px;
     margin: 50px auto;
@@ -331,7 +313,24 @@ a {
     pointer-events: auto;
     transform: translateX(100%);
 }
-.contact-details a{
-   display: list-item;
-   list-style: none;
-}
+.contact-me h1{
+    text-align: center;
+    }
+    .contact-details{
+        text-align: center ;
+        background-color: #cfe3d0;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border-color: #000;
+        display:grid;
+    
+    }
+    .Address{
+        text-align: center;
+        background-color: #cfe3d0;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border-color: #000;
+    }
