@@ -42,3 +42,4 @@ function getWeather() {
   }
   
   getWeather();
+  
