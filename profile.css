@@ -334,4 +334,7 @@ a {
         border-radius: 5px;
         border-color: #000;
     }
-    
+    a:hover{
+        color: white;
+    }
+ 
